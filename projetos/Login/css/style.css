@@ -1,0 +1,154 @@
+/* RESET GERAL  */
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #323232;
+    border: none;
+}
+
+body {
+
+    height: 100vh;
+    background: url("../images.jpg") center no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+
+input:focus {
+    outline: none;
+
+}
+
+a {
+    font-size: .8rem;
+}
+
+a:hover {
+
+    color: #08558b;
+}
+
+/* CONTAINER LOGIN */
+
+#login-container {
+
+    background-color: #fff;
+    width: 25rem;
+    padding: 1.5rem 1.8rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* FORMULARIOS */
+
+h1 {
+    color: #5b0eeb;
+}
+
+label,
+input {
+
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+
+    font-weight: bold;
+    font-size: .8rem;
+      margin-top: 30px;
+}
+
+input{border-bottom: 1px solid #323232;
+padding: 10px;
+font-size:1rem ;
+margin-bottom:20px ;
+}
+
+input:focus{
+    border-bottom: 2px solid #08558b;
+}
+
+#forgot-pass{
+
+    display: block;
+    text-align: right;
+
+}
+
+input[type="submit"]{
+
+    background-color: #08558b;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 80%;
+    margin: 1.8rem auto 0;
+}
+
+input[type="submit"]:hover{
+
+ background-color: #08558b57; 
+ width: 100%;
+ transition:width 2s;
+}
+
+/* social container */
+
+#social-container, #social-container p{
+
+margin-bottom: 1.25rem;
+margin-top: 1.25rem;
+}
+
+#social-container i{
+
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.fa-facebook-f{
+
+    background: #1f7bf2;
+}
+
+.fa-linkedin{
+
+    background: #086b96;
+}
+
+.fa-whatsapp{
+
+    background: linear-gradient(to bottom, #5ff475, #38c33a);
+    }
+
+    .fa-instagram{
+
+        background: linear-gradient(to bottom, #AA10F1, #FE0CA0, #FC08CE);
+    }
+   
+    #register-container a{
+
+        margin-bottom: 20px;
+        padding: 1rem;
+    }
+
+    #register-container p{
+
+        margin-bottom: 20px;
+        padding: 1rem;
+    }

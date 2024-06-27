@@ -1,0 +1,82 @@
+/* RESET GERAL */
+
+@font-face{
+    font-family:greak ;
+    src: url(../fonts/Greek-Freak.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:greak ;
+}
+
+body {
+    background: url("https://media4.giphy.com/media/O8hMm6b18r9zabvup6/giphy.gif") center;
+    height: 100vh;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+
+}
+
+h1 {
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+}
+
+.relogio {
+    background-color: trd;
+    width: 90%;
+    padding: 3% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 8px 10px #00000070;
+    border-radius: 5px;
+
+}
+
+.relogio div {
+    border: 2px solid rgb(0, 102, 255);
+
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    letter-spacing: 3px;
+    color: #fff;
+    background: #000;
+    box-shadow: 5px 5px 15px #000;
+    margin: 2%;
+    padding: 3%;
+
+}
+
+.relogio span {
+    font-weight: bolder;
+    font-size: 4rem;
+}
+
+.relogio span.tempo {
+    font-size: .7rem;
+}
+
+
+@media (max-width:500px) {
+    .relogio {
+        flex-direction: column;
+
+    }
+
+    h1 {
+        top: 5%;
+        font-size: 1.5rem;
+    }
+
+}

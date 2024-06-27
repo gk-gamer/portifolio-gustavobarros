@@ -1,0 +1,90 @@
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+body {
+font-family: "Roboto", sans-serif;
+height: 100vh;
+
+display: grid;
+place-items: center;
+background-color: #2596be;
+overflow: hidden;
+}
+
+label {
+color: #2596be;
+}
+
+button {
+padding: 5px 30px;
+margin-top: 10px;
+background-color: #fff;
+color: #2596be;
+border: 1px solid #2596be;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #2596be;
+color: #fff;
+}
+
+
+
+.formulario {
+
+background-color: #fff;
+padding: 15px;
+border-radius: 6px;
+
+}
+ form {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+ }
+
+ .cabecalho {
+color: #2596be;
+padding: 10px;
+}
+
+.campo {
+padding: 5px 10px;
+width: 100%;
+}
+
+.campo input {
+width: 100%;
+border: 1px solid #2596be;
+height: 30px;
+padding: 5px 5px;
+}
+
+.campo input:focus {
+outline: none;
+}
+
+.campo select {
+width: 100%;
+border: 1px solid #2596be;
+height: 30px;
+background-color: #fff;
+}
+
+.campo select:focus {
+outline: none;
+}
+
+.resultado {
+padding: 5px;
+margin-top: 10px;
+border: 1px solid #2596be;
+display: block;
+
+}

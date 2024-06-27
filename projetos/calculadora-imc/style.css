@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+body {
+    background: url('https://i.ytimg.com/vi/Hxu9yFKpFR0/maxresdefault.jpg') right;
+    background-size: cover;
+    
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    color: #f8fafc;
+
+    overflow: hidden;
+    
+}
+
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    overflow: hidden;
+   
+}
+
+#img  {
+    width: 40%;
+    overflow: hidden;
+   
+}
+
+#img img {
+    width: 100%;
+}
+
+#calculator {
+    background-color: #262626;
+    padding: 2rem;
+    border-radius: 8px;
+
+}
+
+#title {
+   
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+#title::after {
+    position: absolute;
+    content: '';
+    background-color: orange;
+    width: 8rem;
+    height: 3px;
+    border-radius: 3px;
+    bottom: 0; left: 0;
+}
+
+.input-field i {
+    color: orange;
+    font-size: 1.3rem;
+    padding: .6rem 1rem;
+}
+
+.input-box label,
+.input-field span
+ {
+    
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: orange;
+}
+
+.input-field {
+    background-color: #3f3f46;
+    padding: .3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+    margin-top: .4rem;
+}
+
+.input-field input {
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 0 .5rem;
+    color: #f8fafc;
+    background-color: transparent;
+    border: none;
+    text-align: right;
+}
+
+.input-field input::-webkit-outer-spin-button,
+.input-field input::-webkit-inner-spin-button {
+    appearance: none;
+}
+
+#calculate {
+    color: #f8fafc;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-color: orange;
+    width: 100%;
+    padding: .5rem 0;
+    border-radius: 6px;
+    margin: 2rem 0;
+    border: none;
+}
+
+#result {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    border-top: 1px solid orange;
+    padding: .8rem 0;
+    
+}
+
+#bmi {
+    
+    display: flex;
+    flex-direction: column;
+    font-size: 2.25rem;
+}
+
+#bmi span:last-child {
+    font-size: .9rem;
+    color: orange;
+}
+
+#description {
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#more_info {
+    
+    text-align: center;
+    border-top: 1px solid orange;
+    padding-top: .5rem;
+}
+
+#more_info a {
+    color: #f8fafc;
+}
+
+#more_info a:hover {
+    color: green;
+}
+
+.normal {
+    color: #16a34a;
+}
+
+.attention {
+    color: #dc2626;
+}
+
+.hidden {
+    display: none;
+}
+
+
+@media  (max-width: 500px) {
+    #container {
+        
+       flex-direction: column;
+       
+       height: 100vh;
+       justify-content: space-around;
+       
+    }
+
+    #calculator {
+        margin-top: -100px;
+    }
+}
+
+
+
+
+
+
+
+
